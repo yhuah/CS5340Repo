@@ -37,7 +37,6 @@ export default class Demo2 extends React.Component {
                     Here you can draw, save, undo, and clear your drawing. Your saved drawing
                     will be show immediately after you click save.
                     You can also edit the width, height, brush size and lazy radius figures.
-                    <span>{`<CanvasDraw loadTimeOffset={10} />`}</span>
                 </p>
                 <p>Try it out! Draw something, hit "Save" and then "Load".</p>
                 <div className={classNames.tools}>

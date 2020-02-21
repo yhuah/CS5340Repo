@@ -58,23 +58,10 @@ class App extends Component{
                   </label>
                 <Tooltip title="Click it and submit a user" arrow>
 
-                    <Button  type="submit"   ><img src={add} alt="Add"/></Button>
+                    <Button type="submit" ><img src={add} alt="Add"/></Button>
                 </Tooltip>
               </form>
           </div>
-
-              { /*
-            <FormControlLabel
-                control={
-                    <Checkbox
-                        name="SomeName"
-                        value="SomeValue"
-                    />
-                }
-                label="MyCheckBox"/>
-             </div> >*/}
-
-
 
               <SimpleMenu/>
                 <Todo/>
